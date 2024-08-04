@@ -51,7 +51,7 @@ public class Main {
             second = romanToArab(operand2);
         }
 
-        if (first > 10 || second > 10 || first < 0 || second < 0){//условие данным в ТЗ
+        if (first >= 10 || second >= 10 || first <= 0 || second <= 0){//условие данным в ТЗ
             throw new Exception();// ошибка
         }
 
